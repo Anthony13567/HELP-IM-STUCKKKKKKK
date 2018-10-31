@@ -68,17 +68,4 @@ public static void main(String[] args)
        if (computerPlay.equals("S")) 
           System.out.println("Rock crushes scissors. You win!!");
     else if (computerPlay.equals("P")) 
-            System.out.println("Paper eats rock. You lose!!"); 
-    else if (personPlay.equals("P")) 
-       if (computerPlay.equals("S")) 
-       System.out.println("Scissor cuts paper. You lose!!"); 
-    else if (computerPlay.equals("R")) 
-            System.out.println("Paper eats rock. You win!!"); 
-    else if (personPlay.equals("S")) 
-         if (computerPlay.equals("P")) 
-         System.out.println("Scissor cuts paper. You win!!"); 
-    else if (computerPlay.equals("R")) 
-            System.out.println("Rock breaks scissors. You lose!!"); 
-    else 
-         System.out.println("Invalid user input.");
-    }
+            Sy
